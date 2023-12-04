@@ -88,3 +88,35 @@ The Deis core maintainers must unanimously agree before inviting a community mem
 contributing maintainer, although in many cases the candidate has already been acting in the
 capacity of a contributing maintainer for some time, and has been consulted on issues, pull requests,
 etc.
+
+
+# Packages
+var
+sdist
+develop-eggs
+.installed.cfg
+lib64
+pip-log.txt
+
+# Unit test / coverage reports
+.tox
+
+# Translations
+*.mo
+.mr.developer.cfg
+.project
+.pydevproject
+
+# In case people do a `git add .` ...
+tests/data/ruleset-test.json
+# Data folder and files
+scout2-report*
+inc-awsconfig*
+report-*
+
+# PyCharm
+.idea/
+# Mac cruft
+.DS_Store
+# Emacs backups
+*~
